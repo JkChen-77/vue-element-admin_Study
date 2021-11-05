@@ -84,14 +84,14 @@ export const constantRoutes = [
     ]
   },
   {
-    path: '/documentation',
+    path: '/test',
     component: Layout,
     children: [
       {
         path: 'index',
-        component: () => import('@/views/documentation/index'),
+        component: () => import('@/views/test/index.vue'),
         name: 'Documentation',
-        meta: { title: 'Documentation', icon: 'documentation', affix: true }
+        meta: { title: 'Test', icon: 'form', affix: true }
       }
     ]
   },
